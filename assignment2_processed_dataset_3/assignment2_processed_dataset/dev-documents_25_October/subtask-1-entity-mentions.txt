@@ -1,0 +1,518 @@
+A9_BG_3970.txt	Европа	556	561
+A9_BG_3970.txt	НАТО	1353	1356
+A9_BG_4076.txt	Европа	440	445
+A9_BG_8427.txt	Путин	1270	1274
+A9_BG_3819.txt	Украйна	492	498
+A9_BG_3819.txt	Владимир Путин	971	984
+A9_BG_2961.txt	Володимир Зеленски	74	91
+A9_BG_2961.txt	Путин	1363	1367
+A9_BG_2828.txt	Вашингтон	146	154
+A9_BG_2828.txt	Брюксел	158	164
+BG_73.txt	Антониу Гутериш	335	349
+A9_BG_4093.txt	Демократическата партия	505	527
+A9_BG_4093.txt	Украйна	561	567
+A9_BG_3964.txt	Въоръжените сили на Украйна (ВСУ)	258	290
+A9_BG_3964.txt	Луганск	295	301
+A9_BG_3921.txt	Западът	312	318
+A9_BG_3921.txt	Владимир Путин	1575	1588
+A9_BG_2663.txt	НАТО	1194	1197
+A9_BG_2663.txt	Запада	1417	1422
+BG_979.txt	Ал Гор	1981	1986
+BG_979.txt	Грета Тунберг	2030	2042
+BG_979.txt	Марк Баумър	3138	3148
+BG_950.txt	Швеция	103	108
+A9_BG_2569.txt	Украйна	124	130
+A9_BG_2569.txt	Русия	402	406
+A9_BG_2569.txt	Запада	1671	1676
+A9_BG_2569.txt	САЩ	1680	1682
+A9_BG_4039.txt	Белгия	531	536
+A9_BG_4039.txt	Дания	539	543
+A9_BG_4039.txt	Нидерландия	546	556
+A9_BG_4039.txt	Норвегия	560	567
+EN_UA_DEV_100012.txt	Washington	1441	1450
+EN_UA_DEV_100012.txt	Americans	2397	2405
+EN_CC_200053.txt	Rishi Sunak	85	95
+EN_CC_200040.txt	Extinction Rebellion	189	208
+EN_CC_200070.txt	Eric Garcetti	89	101
+EN_CC_200070.txt	Los Angeles	2313	2323
+EN_UA_DEV_100033.txt	Russia	114	119
+EN_UA_DEV_100033.txt	Kremlin propagandists	259	279
+EN_UA_DEV_100033.txt	Vladimir Soloviev	4705	4721
+EN_UA_DEV_100033.txt	Matveychev	6021	6030
+EN_CC_200036.txt	Al Gore	97	103
+EN_CC_200079.txt	Klaus Schwab	81	92
+EN_CC_200079.txt	World Economic Forum	96	115
+EN_CC_200079.txt	World Economic Forum	1897	1916
+EN_UA_DEV_100029.txt	Russia	83	88
+EN_UA_DEV_100029.txt	Ukraine	995	1001
+EN_UA_DEV_20.txt	Biden	573	577
+EN_UA_DEV_20.txt	Putin	1209	1213
+EN_UA_DEV_20.txt	Ukrainian government	2187	2206
+EN_UA_DEV_20.txt	the US	5098	5103
+EN_UA_DEV_20.txt	Biden	5976	5980
+EN_CC_200033.txt	Greta Thunberg	84	97
+EN_CC_200033.txt	Thunberg	384	391
+EN_CC_200033.txt	COP	1488	1490
+EN_CC_200033.txt	Stuart Basden	2545	2557
+EN_CC_200071.txt	Biden's	266	272
+EN_CC_200046.txt	Democrats	644	652
+EN_UA_DEV_100026.txt	Germany	262	268
+EN_UA_DEV_100026.txt	Germany	4366	4372
+EN_UA_DEV_100026.txt	Alternative for Germany	5153	5175
+EN_UA_DEV_215.txt	Ukraine	334	340
+EN_CC_200054.txt	ECB	875	877
+EN_CC_200054.txt	Bank of England	2929	2943
+EN_UA_DEV_100013.txt	SBU	319	321
+EN_UA_DEV_100013.txt	Zelensky	417	424
+EN_UA_DEV_100013.txt	Bogdan	1054	1059
+EN_UA_DEV_100013.txt	Zaluzhny	1063	1070
+EN_UA_DEV_100013.txt	Zaluzhny	1287	1294
+EN_UA_DEV_100013.txt	Zaluzhny	1922	1929
+EN_UA_DEV_100013.txt	Stepan Bandera	2483	2496
+EN_UA_DEV_100013.txt	Roman Shukhevych	2502	2517
+EN_UA_DEV_100013.txt	British	2778	2784
+EN_UA_DEV_100013.txt	Britain	6542	6548
+EN_UA_DEV_100013.txt	Labour Party	7181	7192
+EN_CC_200077.txt	Biden	1600	1604
+EN_CC_200077.txt	China	3717	3721
+EN_CC_200034.txt	Just Stop Oil	206	218
+EN_CC_200034.txt	Just Stop Oil	825	837
+EN_UA_DEV_213.txt	US	72	73
+EN_UA_DEV_213.txt	European allies	83	97
+EN_UA_DEV_213.txt	Ukraine	106	112
+EN_UA_DEV_213.txt	Washington	370	379
+EN_UA_DEV_213.txt	Ukrainian	823	831
+EN_UA_DEV_213.txt	New York Times	1088	1101
+EN_UA_DEV_213.txt	Washington Post	1107	1121
+EN_UA_DEV_213.txt	Saddam Hussein	1276	1289
+EN_UA_DEV_213.txt	Russia	2636	2641
+EN_UA_DEV_213.txt	United States	2835	2847
+EN_UA_DEV_213.txt	NATO	2853	2856
+EN_UA_DEV_213.txt	NATO	3088	3091
+EN_UA_DEV_213.txt	United States	3472	3484
+EN_UA_DEV_213.txt	NATO	3491	3494
+EN_UA_DEV_213.txt	United States	4199	4211
+EN_UA_DEV_213.txt	Germany	4217	4223
+EN_UA_DEV_213.txt	Russia	6451	6456
+EN_UA_DEV_213.txt	United States	6674	6686
+EN_UA_DEV_213.txt	the United States	7394	7410
+EN_UA_DEV_213.txt	US media	8274	8281
+EN_CC_200047.txt	World Economic Forum	280	299
+EN_CC_200047.txt	Committee to Unleash Prosperity	340	370
+EN_CC_200047.txt	The College Fix	1436	1450
+EN_CC_200081.txt	Mairi Gougeon	376	388
+EN_CC_200081.txt	China	2349	2353
+EN_UA_DEV_214.txt	Ukraine?	247	254
+EN_UA_DEV_214.txt	China	273	277
+EN_UA_DEV_214.txt	the West	289	296
+EN_UA_DEV_214.txt	the West	543	550
+EN_UA_DEV_214.txt	Joe Biden	1534	1542
+EN_UA_DEV_214.txt	Nato	1707	1710
+EN_CC_200064.txt	Restore Wetlands”	774	790
+EN_CC_200035.txt	Gretchen Whitmer	80	95
+EN_CC_200069.txt	Oxford	285	290
+EN_CC_200069.txt	the UK	488	493
+EN_CC_200069.txt	Piers Corbyn	809	820
+EN_UA_DEV_100019.txt	Russia-	247	253
+EN_UA_DEV_100019.txt	Star Blizzard	1819	1831
+EN_UA_DEV_100002.txt	Zelensky	657	664
+EN_UA_DEV_100002.txt	Ukraine	672	678
+EN_UA_DEV_100002.txt	West	725	728
+EN_UA_DEV_100002.txt	NATO	1027	1030
+EN_UA_DEV_100002.txt	Russia	1200	1205
+HI_26.txt	मोदी	1123	1126
+HI_26.txt	भारत	3085	3088
+HI_26.txt	राष्ट्रपति वोलोदोमीर	3540	3559
+HI_26.txt	रूस	3614	3616
+HI_26.txt	कीव	3621	3623
+HI_26.txt	स्लोवियास्क	3628	3638
+HI_26.txt	मोदी	4272	4275
+HI_26.txt	PM	4785	4786
+HI_26.txt	रूस	5086	5088
+HI_160.txt	यूक्रेन-	107	114
+HI_160.txt	जॉर्ज डब्ल्यू बुश	430	446
+HI_160.txt	जर्मनी	512	517
+HI_160.txt	फ्रांस	522	527
+HI_51.txt	रूस	119	121
+HI_51.txt	यूक्रेन	195	201
+HI_51.txt	स्विट्जरलैंड	217	228
+HI_51.txt	नई दिल्ली	1227	1235
+HI_51.txt	अमेरिका	1580	1586
+HI_51.txt	यूरोप	1591	1595
+HI_51.txt	रूस	1911	1913
+HI_51.txt	यूक्रेन	1918	1924
+HI_51.txt	गाजा	2097	2100
+HI_51.txt	अमेरिका	2159	2165
+HI_51.txt	यूरोप	2170	2174
+HI_51.txt	भारत	2263	2266
+HI_114.txt	अमेरिका	129	135
+HI_114.txt	फ्रांस	138	143
+HI_114.txt	रूस	244	246
+HI_114.txt	यूक्रेनी सैनिकों	251	266
+HI_114.txt	अमेरिका	329	335
+HI_114.txt	फ्रांस	340	345
+HI_114.txt	यूक्रेन	1655	1661
+HI_114.txt	रक्षा मंत्रालय	1666	1679
+HI_114.txt	इमैनुएल मैक्रॉन	1938	1952
+HI_114.txt	व्लादिमीर पुतिन	2070	2084
+HI_17.txt	शी चिनफिंग	38	47
+HI_17.txt	ओरबान	2264	2268
+HI_152.txt	किम जोंग	93	100
+HI_152.txt	रूस	482	484
+HI_152.txt	यूक्रेन	508	514
+HI_152.txt	साउथ कोरिया	592	602
+HI_152.txt	दक्षिण कोरिया	830	842
+HI_152.txt	किम योंग-ह्यून	860	873
+HI_152.txt	पुतिन	1030	1034
+HI_152.txt	नाटो	1077	1080
+HI_152.txt	पश्चिमी देशों	1091	1103
+HI_152.txt	रूस	1136	1138
+HI_152.txt	यूक्रेन	1192	1198
+HI_152.txt	राष्ट्रपति जेलेंस्की	1276	1295
+HI_152.txt	सैनिकों	1541	1547
+HI_152.txt	उत्तर कोरिया	1636	1647
+HI_152.txt	दोनेत्सक	1845	1852
+HI_152.txt	यूक्रेन	1861	1867
+HI_35.txt	द मॉस्को टाइम्स	42	56
+HI_35.txt	द मॉस्को टाइम्स	268	282
+HI_35.txt	द मॉस्को टाइम्स	722	736
+HI_35.txt	इवान गेर्शकोविच	1762	1776
+HI_76.txt	रूस	75	77
+HI_76.txt	अमेरिका	385	391
+HI_76.txt	रूसी सेना	692	700
+HI_76.txt	यूक्रेन	819	825
+HI_76.txt	यूक्रेनी सेना	2771	2783
+HI_76.txt	पुतिन प्रशासन	2994	3006
+HI_134.txt	34 राज्यों	319	328
+HI_134.txt	केंद्र शासित प्रदेशों	332	352
+HI_134.txt	भारत	475	478
+HI_134.txt	डा. एंड्रयू परशिंग	982	999
+HI_134.txt	साइंस क्लाइमेट सेंटर	1018	1037
+HI_134.txt	क्लाइमेट सेंट्रल	1666	1681
+HI_71.txt	रूस	686	688
+HI_71.txt	रूस	871	873
+HI_71.txt	यूक्रेन	883	889
+HI_71.txt	रूस	1389	1391
+HI_71.txt	रूस	1781	1783
+HI_19.txt	रूस	0	2
+HI_19.txt	इवान गेर्शकोविच	71	85
+HI_19.txt	पॉल व्हेलन	112	121
+HI_19.txt	जो बाइडेन	942	950
+HI_19.txt	वादिम कसीकोव	1404	1415
+HI_139.txt	ब्राजील	517	523
+HI_139.txt	दक्षिण अमेरिकी देश	533	550
+HI_139.txt	भारत	2009	2012
+HI_139.txt	कई देश	2019	2024
+HI_139.txt	अपूर्व चंद्रा	2616	2628
+HI_139.txt	सुजाता सुनील	3992	4003
+HI_139.txt	यूएस सेंटर फॉर डिजीज कंट्रोल एंड प्रिवेंशन	4274	4315
+HI_126.txt	नरेंद्र मोदी	183	194
+HI_126.txt	पश्चिमी देश	421	431
+HI_126.txt	भारत	555	558
+HI_126.txt	यूक्रेन के राष्ट्रपति	1441	1461
+HI_126.txt	प्रधानमंत्री मोदी	2017	2033
+HI_126.txt	भारत	2666	2669
+HI_126.txt	चीन	4129	4131
+HI_151.txt	किंग जोंग	103	111
+HI_151.txt	यूक्रेन	652	658
+HI_151.txt	सोवियत संघ	1037	1046
+HI_151.txt	अमेरिका	1669	1675
+HI_125.txt	यूक्रेन	75	81
+HI_125.txt	वोलोदिमिर जेलेंस्की	97	115
+HI_125.txt	रूस	139	141
+HI_125.txt	जर्मनी	880	885
+HI_125.txt	जेलेंस्की	1118	1126
+HI_125.txt	जर्मनी	1231	1236
+HI_125.txt	यूक्रेन	1239	1245
+HI_97.txt	यूक्रेन	1493	1499
+HI_97.txt	जेलेंस्की	1901	1909
+HI_143.txt	महिलाओं	240	246
+HI_143.txt	दिव्यांगों	249	258
+HI_143.txt	मूल निवासियों	263	275
+HI_143.txt	चंद्रचूड	1340	1347
+HI_156.txt	रूस	277	279
+HI_156.txt	दिमित्री पेसकोव	589	603
+HI_156.txt	यूक्रेन	1117	1123
+HI_156.txt	राष्ट्रपति व्लादिमीर पुतिन	1569	1594
+HI_75.txt	प्रिंस सेबेस्टिन	113	128
+HI_75.txt	केंद्रीय जांच ब्यूरो	392	411
+HI_75.txt	विनीत सिल्वा और टीनू पानी आदिमा	513	543
+HI_75.txt	रूसी सेना	1279	1287
+HI_75.txt	भारतीय नागरिकों	1610	1624
+HI_75.txt	रूसी सैनिक	2606	2615
+HI_5.txt	G7	36	37
+HI_5.txt	ज़ेलेंस्की	39	48
+HI_5.txt	श्चिमी देशों	98	109
+HI_5.txt	यूक्रेन	114	120
+HI_5.txt	अमेरिका	383	389
+HI_5.txt	फ्रांस	588	593
+HI_5.txt	ब्रिटेन	598	604
+HI_5.txt	यूक्रेन	606	612
+HI_5.txt	व्लादिमीर ज़ेलेंस्की	903	922
+HI_5.txt	अमेरिका	1278	1284
+HI_5.txt	ज़ेलेंस्की	1313	1322
+HI_5.txt	पुतिन	1750	1754
+HI_5.txt	प्रधानमंत्री	2082	2093
+HI_10.txt	वोलोदिमिर जेलेंस्की	546	564
+HI_10.txt	मोदी	592	595
+HI_10.txt	पुतिन	600	604
+HI_10.txt	भारत	1385	1388
+HI_10.txt	भारत	1459	1462
+HI_154.txt	यूक्रेन	190	196
+HI_154.txt	रूस	286	288
+HI_154.txt	रूसियों	387	393
+HI_154.txt	अमेरिका	793	799
+HI_154.txt	नाटो	892	895
+HI_154.txt	यूक्रेन	1029	1035
+HI_154.txt	रूडोल्फ जी एडम	2221	2234
+HI_154.txt	भारत	4143	4146
+HI_28.txt	अमेरिका-	32	39
+HI_28.txt	रूस	40	42
+HI_28.txt	पत्रकारों	80	88
+HI_28.txt	वादिम क्रासिकोव	882	896
+HI_28.txt	बाइडेन	1176	1181
+HI_28.txt	पत्रकारों	1313	1321
+HI_28.txt	गेर्शकोविच	1431	1440
+HI_11.txt	नाटो	399	402
+HI_11.txt	उत्तर	439	443
+HI_11.txt	अमेरिका	464	470
+HI_11.txt	दक्षिण कोरिया	475	487
+HI_11.txt	हमास	756	759
+HI_11.txt	इजरायल	867	872
+HI_11.txt	भारत	925	928
+HI_11.txt	चीन	955	957
+HI_11.txt	पाकिस्तान	968	976
+HI_11.txt	रूस	1710	1712
+HI_11.txt	यूक्रेन	1717	1723
+HI_11.txt	नॉर्थ कोरिया	1758	1769
+HI_11.txt	तानाशाह	1821	1827
+HI_31.txt	नरेंद्र मोदी	217	228
+HI_31.txt	व्लादिमीर पुतिन	249	263
+HI_31.txt	उर्गेन तमांग	360	371
+HI_31.txt	रबि प्रधान	534	543
+HI_31.txt	तमांग	641	645
+HI_31.txt	एजेंटों	1253	1259
+HI_31.txt	मोदी	1493	1496
+HI_31.txt	रूसी	1524	1527
+HI_31.txt	भारत सरकार	1686	1695
+HI_31.txt	तमांग	2144	2148
+HI_31.txt	एजेंटों	2168	2174
+HI_31.txt	भारतीय नागरिकों	2553	2567
+HI_107.txt	NATO	211	214
+HI_107.txt	रूस	253	255
+HI_107.txt	नाटो	260	263
+HI_159.txt	यूक्रेन	169	175
+HI_159.txt	रूस	217	219
+HI_159.txt	कुर्स्क	535	541
+HI_159.txt	रूसी सेना	722	730
+HI_159.txt	सर्गिव्का	815	823
+HI_159.txt	अवदीवका	992	998
+HI_159.txt	खार्किव	1133	1139
+HI_159.txt	पोक्रोव्स्क	1472	1482
+HI_159.txt	यूक्रेन	2218	2224
+HI_159.txt	रूसी सेनाओं	2241	2251
+HI_159.txt	डोनेट्स्क	2426	2434
+HI_159.txt	लुहान्स्क	2439	2447
+HI_110.txt	रूस	85	87
+HI_110.txt	व्लादिमीर पुतिन	137	151
+HI_110.txt	अमेरिका	156	162
+HI_110.txt	ब्रिटेन	167	173
+HI_110.txt	यूक्रेनी सैनिकों	438	453
+HI_110.txt	यूक्रेन	520	526
+HI_158.txt	पुतिन	212	216
+HI_158.txt	यूक्रेनी सेना	272	284
+HI_158.txt	कुर्स्क	319	325
+HI_158.txt	रूस	386	388
+HI_158.txt	यूक्रेन	422	428
+HI_158.txt	मॉस्को	469	474
+HI_158.txt	रक्षा मंत्रालय	580	593
+HI_158.txt	ओलेक्सांद्र सिरस्की	993	1011
+HI_158.txt	कीव	1023	1025
+HI_158.txt	जेलेंस्की	1131	1139
+HI_158.txt	मॉस्को	1256	1261
+HI_158.txt	युद्ध	1314	1318
+HI_158.txt	एलेक्सी स्मिरनोव	1380	1395
+HI_158.txt	नागरिक	1579	1584
+HI_158.txt	व्याचेस्लाव ग्लैडकोव	1760	1779
+HI_158.txt	बेलगोरोड	1809	1816
+HI_158.txt	क्रास्नाया यारुगा	1879	1895
+HI_158.txt	यूक्रेनी सेना	1906	1918
+HI_158.txt	पुतिन	2029	2033
+HI_158.txt	राष्ट्रपति	2236	2245
+HI_158.txt	रूस	2428	2430
+HI_158.txt	कीव की सेना	2432	2442
+HI_158.txt	रूस	2575	2577
+HI_158.txt	मॉस्को	2638	2643
+HI_158.txt	कीव	2648	2650
+HI_158.txt	इहोर रोमानेंको	3569	3582
+HI_158.txt	यूक्रेन के लोगों	3606	3621
+HI_158.txt	चीन	3907	3909
+HI_158.txt	प्रवक्ता	4033	4040
+HI_158.txt	चीन	4289	4291
+HI_158.txt	नाटो सदस्यों	4526	4537
+HI_158.txt	बीजिंग	4542	4547
+HI_140.txt	डॉ. एमिली ग्रीनफ़ील्ड	2828	2848
+HI_38.txt	भारत	1648	1651
+HI_4.txt	जिनपिंग सरकार	183	195
+HI_4.txt	चीन	247	249
+HI_4.txt	अमेरिका	555	561
+HI_4.txt	पश्चिमी	566	572
+HI_4.txt	चीन	615	617
+HI_4.txt	चीन	700	702
+HI_4.txt	जिनपिंग सरकार	872	884
+HI_4.txt	चीन	1012	1014
+HI_4.txt	शी जिनपिंग	1601	1610
+HI_4.txt	चीन	1923	1925
+HI_4.txt	चीन	2412	2414
+HI_4.txt	चीन	2506	2508
+HI_4.txt	अमेरिका	2532	2538
+HI_4.txt	पश्चिमी देशों	2543	2555
+HI_4.txt	अमेरिका	2678	2684
+HI_4.txt	पश्चिमी देशों	2689	2701
+HI_95.txt	रूस	75	77
+HI_95.txt	नाटो	108	111
+HI_95.txt	यूक्रेन	323	329
+HI_95.txt	रूस	937	939
+HI_95.txt	हिजबुल्लाह	1688	1697
+HI_95.txt	इजरायल	1702	1707
+HI_95.txt	रूस	1835	1837
+HI_95.txt	उत्तर कोरिया	3132	3143
+HI_12.txt	नरेन्द्र मोदी	13	25
+HI_12.txt	कार्ल नेहमर	221	231
+HI_12.txt	मोदी	898	901
+HI_12.txt	ऑस्ट्रिया	910	918
+HI_12.txt	भारत	923	926
+HI_12.txt	भारत	1823	1826
+HI_12.txt	भारत	2022	2025
+HI_12.txt	ऑस्ट्रिया	2030	2038
+HI_34.txt	पुतिन	0	4
+HI_34.txt	यूक्रेनी सेना	19	31
+HI_34.txt	यूक्रेन	109	115
+HI_34.txt	रूसी सेना	320	328
+HI_34.txt	यूक्रेन	330	336
+HI_34.txt	यूक्रेन	438	444
+HI_34.txt	यूक्रेन	514	520
+HI_34.txt	यूक्रेन	748	754
+HI_34.txt	अमेरिका	792	798
+HI_34.txt	यूक्रेन	879	885
+HI_34.txt	वलोडोमिर जेलेंस्की	929	946
+HI_34.txt	यूक्रेनी सेना	1315	1327
+HI_34.txt	यूक्रेन	1827	1833
+HI_34.txt	रूस	1880	1882
+HI_34.txt	यूक्रेन	1928	1934
+PT_203.txt	Pantanal	114	121
+PT_203.txt	Valdelice Verón	2107	2121
+PT_203.txt	Guarani Kaiowá	2132	2145
+PT_208.txt	Caatinga	241	248
+PT_208.txt	Rodrigo Agostinho	1052	1068
+PT_208.txt	Claudecy Oliveira Lemes	2761	2783
+PT_233.txt	Amazónia	613	620
+PT_241.txt	Rússia	1218	1223
+PT_241.txt	União Europeia	1369	1382
+PT_259.txt	Maria Zakharova	128	142
+PT_259.txt	Volodymyr Zelensky	195	212
+PT_259.txt	Ucrânia	518	524
+PT_259.txt	Zelensky	960	967
+PT_259.txt	Zelensky	1057	1064
+PT_259.txt	Kiev	1387	1390
+PT_259.txt	Rússia	1846	1851
+PT_220.txt	Pantanal	2056	2063
+PT_220.txt	Amazónia	2328	2335
+PT_220.txt	Cerrado	2420	2426
+PT_254.txt	Moscovo	2399	2405
+PT_254.txt	Anton Trofimov	2951	2964
+PT_211.txt	África Ocidental	273	288
+PT_211.txt	Golfo Pérsico	295	307
+PT_211.txt	Burkina Faso	1173	1184
+PT_211.txt	Mali	1187	1190
+PT_211.txt	Qatar	1193	1197
+PT_211.txt	Aruba	1200	1204
+PT_211.txt	Emirados Árabes Unidos	1208	1229
+PT_211.txt	Índia	1424	1428
+PT_211.txt	Nigéria	1433	1439
+PT_211.txt	Indonésia	1445	1453
+PT_237.txt	Rússia	116	121
+PT_237.txt	Ucrânia	914	920
+PT_237.txt	Washington	2460	2469
+PT_250.txt	Igor Sechin	127	137
+PT_224.txt	governo	64	70
+PT_224.txt	Pantanal	251	258
+PT_224.txt	Autoridade do Clima	989	1007
+PT_224.txt	Foz do Amazonas	1881	1895
+PT_224.txt	Governo Federal	2320	2334
+PT_228.txt	Marina Silva	134	145
+PT_228.txt	Pantanal	220	227
+PT_228.txt	Amazónia	502	509
+PT_253.txt	Ucrânia	647	653
+PT_253.txt	Kremlin	710	716
+PT_253.txt	von der Leyen	804	816
+PT_253.txt	Denys Shmyhal	1000	1012
+PT_253.txt	Dmitry Peskov	1312	1324
+PT_253.txt	Ucrânia	1381	1387
+PT_253.txt	Rússia	1419	1424
+PT_253.txt	Comissão Europeia	1489	1505
+PT_253.txt	Vladimir Putin	1709	1722
+PT_209.txt	Leonardo Boff	362	374
+PT_209.txt	Terra	1238	1242
+PT_202.txt	Túlio Gadêlha	121	133
+PT_202.txt	Caatinga	332	339
+PT_202.txt	Marina Silva	1026	1037
+PT_232.txt	Goiás	221	225
+PT_232.txt	Mato Grosso	228	238
+PT_232.txt	Mato Grosso do Sul	241	258
+PT_232.txt	Tocantins	261	269
+PT_232.txt	Minas Gerais	272	283
+PT_232.txt	Pará	286	289
+PT_232.txt	Paraná	292	297
+PT_232.txt	São Paulo	300	308
+PT_232.txt	Rio de Janeiro	312	325
+PT_232.txt	Cerrado	1322	1328
+PT_232.txt	Floresta Amazónica	1334	1351
+PT_245.txt	Federação Russa	640	654
+PT_245.txt	Ucrânia	697	703
+PT_245.txt	Kursk	995	999
+PT_206.txt	Marina Silva	124	135
+PT_249.txt	Moscovo	348	354
+PT_249.txt	Kiev	509	512
+PT_249.txt	Subianto	819	826
+PT_249.txt	Rússia	916	921
+PT_249.txt	Ucrânia	1085	1091
+PT_249.txt	Mikhail Galuzin	2401	2415
+PT_249.txt	Zelensky”	2503	2511
+PT_210.txt	Porto Alegre	87	98
+PT_210.txt	Rio Grande do Sul	123	139
+PT_230.txt	Brasil	413	418
+PT_230.txt	São Paulo	538	546
+PT_230.txt	Amazónia	962	969
+PT_244.txt	Comité Organizador de Paris-2024	603	634
+PT_244.txt	Maria Zakharova	1151	1165
+PT_213.txt	Maceió	757	762
+PT_213.txt	Braskem	1462	1468
+PT_226.txt	Vale do Taquari	450	464
+PT_226.txt	Rio de Janeiro	1196	1209
+PT_239.txt	Dmitro Kuleba	140	152
+PT_239.txt	Rússia	254	259
+PT_239.txt	Moscovo	271	277
+PT_239.txt	China	1567	1571
+PT_239.txt	China	1682	1686
+PT_239.txt	Rússia	1714	1719
+PT_239.txt	Estados Unidos	1751	1764
+PT_239.txt	NATO	1775	1778
+PT_239.txt	Moscovo	1832	1838
+PT_239.txt	Volodimir Zelensky	2227	2244
+PT_234.txt	Ásia	617	620
+PT_234.txt	Antártida	626	634
+PT_234.txt	Amazónia	1247	1254
+PT_207.txt	Zequinha Marinho	82	97
+PT_207.txt	Parlamento Europeu	785	802
+PT_217.txt	São Paulo	202	210
+PT_217.txt	Rio de Janeiro	214	227
+PT_204.txt	Papa Francisco	80	93
+PT_229.txt	Panamá	149	154
+PT_229.txt	Vásquez	1387	1393
+PT_229.txt	El Niño	1959	1965
+PT_225.txt	Rio Grande do Sul	69	85
+PT_225.txt	Maranhão	226	233
+PT_225.txt	Matopiba	429	436
+PT_225.txt	Carlos Nobre	561	572
+PT_225.txt	Rio Grande do Sul	2228	2244
