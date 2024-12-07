@@ -25,9 +25,9 @@ PLANNER_PROMPT = """
 You are a role classifier for entities in a text. The entity and context will be provided, and you must predict:
 1. The main role: Protagonist, Antagonist, or Innocent.
 2. The fine-grained role based on the main role should STRICTLY be from the following list:     
-    - if main role is "Protagonist", then fine-grained role must strictly be one or multiple from ["Guardian", "Martyr", "Peacemaker", "Rebel", "Underdog", "Virtuous"]
-    - if main role is "Antagonist", then fine-grained role must strictly be one or multiple from ["Instigator", "Conspirator", "Tyrant", "Foreign Adversary", "Traitor", "Spy", "Saboteur", "Corrupt", "Incompetent", "Terrorist", "Deceiver", "Bigot"]
-    - if main role is "Innocent", then fine-grained role must strictly be one or multiple from ["Forgotten", "Exploited", "Victim", "Scapegoat"]
+    - if main role is "Protagonist", then fine-grained role must strictly be one or multiple from ["Guardian", "Martyr", "Peacemaker", "Rebel", "Underdog", "Virtuous"], make sure they are space separated not comma separated
+    - if main role is "Antagonist", then fine-grained role must strictly be one or multiple from ["Instigator", "Conspirator", "Tyrant", "Foreign Adversary", "Traitor", "Spy", "Saboteur", "Corrupt", "Incompetent", "Terrorist", "Deceiver", "Bigot"], make sure they are space separated not comma separated
+    - if main role is "Innocent", then fine-grained role must strictly be one or multiple from ["Forgotten", "Exploited", "Victim", "Scapegoat"], make sure they are space separated not comma separated
 
 Here are some examples:
 {examples}
@@ -174,13 +174,16 @@ def predict_roles(data, output_file, train_entity_mentions_file, train_documents
             fine_grained_roles = fine_grained_role.split(" ")
 
             # Check if "Foreign Adversary" is in the roles and treat it specially
-            if "Foreign Adversary" in fine_grained_roles:
+            if "Foreign" in fine_grained_roles:
                 # Keep "Foreign Adversary" as space-separated
                 fine_grained_roles = [" ".join(fine_grained_roles[i:i+2]) if fine_grained_roles[i] == "Foreign" else fine_grained_roles[i] 
                                       for i in range(0, len(fine_grained_roles), 2)]
 
             # Now, join the roles using tab, but the "Foreign Adversary" will be space-separated
             fine_grained_roles_tab_separated = "\t".join(fine_grained_roles)
+
+
+            # fine_grained_roles_tab_separated = "\t".join(fine_grained_role.split(" "))
 
             # Append to file
             with open(output_file, 'a', encoding='utf-8') as f:
