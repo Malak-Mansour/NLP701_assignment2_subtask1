@@ -1,6 +1,0 @@
-EN_UA_DEV_100012.txt	Washington	1441	1450	Antagonist	Instigator	Foreign Adversary
-EN_UA_DEV_100012.txt	Americans	2397	2405	Antagonist	Conspirator	Corrupt
-EN_CC_200053.txt	Rishi Sunak	85	95	Protagonist	Virtuous
-EN_CC_200040.txt	Extinction Rebellion	189	208	Antagonist	Instigator	Deceiver
-EN_CC_200070.txt	Eric Garcetti	89	101	Protagonist	Virtuous
-EN_CC_200070.txt	Los Angeles	2313	2323	Innocent	Victim
