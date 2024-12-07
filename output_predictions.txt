@@ -4,3 +4,13 @@ EN_CC_200053.txt	Rishi Sunak	85	95	Protagonist	Virtuous
 EN_CC_200040.txt	Extinction Rebellion	189	208	Antagonist	Instigator	Deceiver
 EN_CC_200070.txt	Eric Garcetti	89	101	Protagonist	Virtuous
 EN_CC_200070.txt	Los Angeles	2313	2323	Innocent	Victim
+EN_UA_DEV_100033.txt	Russia	114	119	Antagonist	Tyrant	Instigator
+EN_UA_DEV_100033.txt	Kremlin propagandists	259	279	Antagonist	Instigator	Deceiver
+EN_UA_DEV_100033.txt	Vladimir Soloviev	4705	4721	Antagonist	Instigator	Deceiver
+EN_UA_DEV_100033.txt	Matveychev	6021	6030	Antagonist	Conspirator	Deceiver
+EN_CC_200036.txt	Al Gore	97	103	Antagonist	Deceiver
+EN_CC_200079.txt	Klaus Schwab	81	92	Antagonist	Tyrant	Deceiver
+EN_CC_200079.txt	World Economic Forum	96	115	Antagonist	Tyrant	Conspirator
+EN_CC_200079.txt	World Economic Forum	1897	1916	Antagonist	Corrupt	Deceiver
+EN_UA_DEV_100029.txt	Russia	83	88	Antagonist	Foreign Adversary
+EN_UA_DEV_100029.txt	Ukraine	995	1001	Protagonist	Guardian
