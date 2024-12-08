@@ -6,10 +6,10 @@ from langchain.prompts import PromptTemplate
 from tenacity import retry, wait_fixed, stop_after_attempt
 
 # Azure OpenAI Configuration
-BASE_URL = "https://ai-malakmansour0093ai939299253478.openai.azure.com/"
-API_KEY = "8IGmt7raN2eCyC22OxPNX5xm4MYKPQdBZq0WkqHOWUDc2cqcCyA2JQQJ99AKACHYHv6XJ3w3AAAAACOGcuHo"
-DEPLOYMENT_NAME = "gpt-4o-mini"
-API_VERSION = "2024-02-15-preview"
+BASE_URL = "YOUR_BASE_URL"
+API_KEY = "YOUR_API_KEY"
+DEPLOYMENT_NAME = "YOUR_DEPLOYMENT_NAME"
+API_VERSION = "YOUR_API_VERSION"
 
 llm = AzureChatOpenAI(
     openai_api_base=BASE_URL,
