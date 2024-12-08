@@ -4,7 +4,7 @@
 
 Two experiments were conducted: 
 
-1. The first experiment involved using the finetuned model XLM-Roberta.
+1. The first experiment involved using the finetuned model XLM-roberta-base.
 2. To improve the results, which were likely affected by the small datasets, the second experiment used GPT-4 Mini for inference in zero-shot and few-shot configurations.
 
 The code for each experiment is organized under the respective model name’s method. The prediction results are stored in a folder called `results`, with separate subfolders for each model. XLM-Roberta was run using Kaggle's GPU100 resources (https://www.kaggle.com/), while GPT-4 Mini inferencing was conducted via [Azure's API](https://ai.azure.com/).
