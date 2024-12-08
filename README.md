@@ -3,6 +3,8 @@
 SemEval Team name: Malak
 
 
+2 experiments were conducted. Forst with the finetuned model xlm-roberta then to improve the results which were probably caused by the small datasets, we inferenced gpt4o mini using zero and few shot. The code for each of the 2 experiments is found under the model name's method. The prediction results are under the folder called results for each model. XLM-roberta used Kaggle's GPU100 resources while GPT4o mini inferencing used Azure's API access.
+
 # XLM-Roberta-based Multilingual Inference
 
 This repository contains the experimental setup and results for evaluating the performance of XLM-Roberta (XLM-RoBERTa-base) on a multilingual dataset across different inference tasks. The goal is to assess the model's ability to perform in Zero-shot and Few-shot learning settings for multiple languages, specifically English, Hindi, Bulgarian, and Portuguese. The evaluation metrics include Exact Match Ratio (EMR), Micro Precision (P), Micro Recall (R), Micro F1 Score (F1), and Main Role Accuracy.
