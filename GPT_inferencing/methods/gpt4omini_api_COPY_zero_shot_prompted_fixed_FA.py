@@ -20,6 +20,23 @@ llm = AzureChatOpenAI(
     temperature=0,
 )
 
+# # Prompt Template
+# PLANNER_PROMPT = """
+# You are a role classifier for entities in a text. The entity and context will be provided, and you must predict:
+# 1. The main role: Protagonist, Antagonist, or Innocent.
+# 2. The fine-grained role based on the main role should STRICTLY be from the following list:     
+#     - if main role is "Protagonist", then fine-grained role must strictly be one or multiple from ["Guardian", "Martyr", "Peacemaker", "Rebel", "Underdog", "Virtuous"] separated by tabs not commas
+#     - if main role is "Antagonist", then fine-grained role must strictly be one or multiple from ["Instigator", "Conspirator", "Tyrant", "Foreign Adversary", "Traitor", "Spy", "Saboteur", "Corrupt", "Incompetent", "Terrorist", "Deceiver", "Bigot"]  separated by tabs not commas
+#     - if main role is "Innocent", then fine-grained role must strictly be one or multiple from ["Forgotten", "Exploited", "Victim", "Scapegoat"] separated by tabs not commas
+    
+# Here is the input:
+# Entity: {entity}
+# Context: {text}
+
+# Output the result as:
+# Main Role: <main role>
+# Fine-Grained Role: <fine-grained role>
+# """
 PLANNER_PROMPT = """ 
 You are a role classifier for entities in a text. The entity and context will be provided, and you must predict:
 1. The main role: Protagonist, Antagonist, or Innocent.
@@ -43,36 +60,11 @@ Fine-Grained Role: <fine-grained role>
 """
 
 
-
-# Utility Functions
-def extract_entity_and_fine_grained_roles(parts):
-    article_id = parts[0]
-    entity = parts[1]
-    i = 2
-    while not parts[i].isdigit():
-        entity += " " + parts[i]
-        i += 1
-    remaining_parts = parts[i:]
-
-    parts=[]
-    parts = [article_id, entity, remaining_parts[0], remaining_parts[1]]
-
-    if len(remaining_parts) != 2:  # Training set (includes roles)
-        parts.append(remaining_parts[2])
-        parts.append(" ".join(str(item) for item in remaining_parts[3:]))
-    
-    return parts
-
-
-
-
 plan_prompt = PromptTemplate(template=PLANNER_PROMPT, input_variables=["entity", "text"])
 plan_chain = LLMChain(llm=llm, prompt=plan_prompt)
 
-
-
 # Helper Function: Extract Centered Context with Delimiters
-def extract_relevant_context(text, start, end, window_size=512):
+def extract_relevant_context(text, start, end, window_size=200):
     start, end = int(start), int(end)
     start_idx = max(0, start - window_size)
     end_idx = min(len(text), end + window_size)
@@ -104,35 +96,33 @@ def load_data(entity_mentions_file, documents_folder):
                 })
     return data
 
-
-
-
 # Retry Logic for API Calls
 @retry(wait=wait_fixed(10), stop=stop_after_attempt(5))
 def call_model_with_retry(entity, text):
     return plan_chain.run({"entity": entity, "text": text})
 
 
-def predict_roles(data, output_file):
-    # Load few-shot examples
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        pass  # Initialize empty file
+# Prediction Function with Tab-Separated Roles and Incremental Writing
+def predict_roles(data, output_file):
+    with open(output_file, 'w', encoding='utf-8') as f:  # Open in write mode initially to clear old data
+        pass
+        # f.write("file_id\tentity\tstart\tend\tmain_role\tfine_grained_roles\n")  # Add header
 
     for idx, item in enumerate(data):
+        # print(f"Processing item {idx + 1}/{len(data)}: Entity {item['entity']}")
         try:
-            # Generate prediction using few-shot examples
+            # Call the model and get the response
             response = call_model_with_retry(item["entity"], item["context"])
+            # print(f"Response: {response}")
 
             # Parse response
             main_role = response.split("Main Role:")[1].split("\n")[0].strip()
             fine_grained_role = response.split("Fine-Grained Role:")[1].strip()
-
-            # print(fine_grained_role)
+            
 
             # Ensure fine-grained roles are tab-separated, except for "Foreign Adversary"
             fine_grained_roles = fine_grained_role.split(" ")
-
 
             # Ensure fine-grained roles are tab-separated, treating "Foreign Adversary" correctly
             if "Foreign" in fine_grained_roles and "Adversary" in fine_grained_roles:
@@ -147,16 +137,18 @@ def predict_roles(data, output_file):
             fine_grained_roles_tab_separated = "\t".join(fine_grained_roles)
 
 
-
             # Append to file
-            with open(output_file, 'a', encoding='utf-8') as f:
+            with open(output_file, 'a', encoding='utf-8') as f:  # Append mode
                 f.write(f"{item['file_id']}\t{item['entity']}\t{item['start']}\t{item['end']}\t{main_role}\t{fine_grained_roles_tab_separated}\n")
 
         except Exception as e:
-            continue  # Handle errors gracefully
+            print(f"Error processing item {idx + 1}: {e}")
+            continue
 
         # Optional delay to avoid hitting API rate limits
         time.sleep(5)
+
+    print(f"Predictions saved to {output_file}")
 
  
 
@@ -168,5 +160,4 @@ if __name__ == "__main__":
 
     # Load and Process Data
     data = load_data(entity_mentions_file, documents_folder)
-
     predict_roles(data, output_file)
