@@ -5,9 +5,9 @@
 Two experiments were conducted: 
 
 1. The first experiment involved using the finetuned model XLM-roberta-base.
-2. To improve the results, which were likely affected by the small datasets, the second experiment used GPT-4 Mini for inference in zero-shot and few-shot configurations.
+2. To improve the results, which were likely affected by the small datasets, the second experiment used GPT-4o Mini for inference in zero-shot and few-shot configurations.
 
-The code for each experiment is organized under the respective model name’s method. The prediction results are stored in a folder called `results`, with separate subfolders for each model. XLM-Roberta was run using Kaggle's GPU100 resources (https://www.kaggle.com/), while GPT-4 Mini inferencing was conducted via [Azure's API](https://ai.azure.com/).
+The code for each experiment is organized under the respective model name’s method. The prediction results are stored in a folder called `results`, with separate subfolders for each model. XLM-roberta-base was run using [Kaggle's](https://www.kaggle.com/) GPU100 resources, while GPT-4o Mini inferencing was conducted via [Azure's API](https://ai.azure.com/).
 
 ### Installation
 
@@ -24,7 +24,7 @@ Run the following commands to set up the conda environment and install the neces
 
 # XLM-Roberta-based Multilingual Inference
 
-This repository contains the experimental setup and results for evaluating the performance of XLM-Roberta (XLM-RoBERTa-base) on a multilingual dataset across different inference tasks. The goal is to assess the model's ability to perform in Zero-shot and Few-shot learning settings for multiple languages, specifically English, Hindi, Bulgarian, and Portuguese. The evaluation metrics include Exact Match Ratio (EMR), Micro Precision (P), Micro Recall (R), Micro F1 Score (F1), and Main Role Accuracy.
+This repository contains the experimental setup and results for evaluating the performance of XLM-Roberta (XLM-RoBERTa-base) on a multilingual dataset across different inference tasks. The goal is to assess the model's ability to predict the main roles and fine-grained roles for multiple languages, specifically English, Hindi, Bulgarian, and Portuguese. The evaluation metrics include Exact Match Ratio (EMR), Micro Precision (P), Micro Recall (R), Micro F1 Score (F1), and Main Role Accuracy.
 
 ## Overview
 
@@ -40,7 +40,7 @@ In this experiment, XLM-Roberta was tested on multiple languages to evaluate its
 1. Python 3.7+
 2. PyTorch
 3. Hugging Face Transformers library
-4. Datasets for English, Hindi, Bulgarian, Portuguese, and Russian
+4. Datasets for English, Hindi, Bulgarian, Portuguese, and Russian (in the folder called 
 5. Access to GPU resources 
 
 ### Installation:
