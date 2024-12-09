@@ -49,7 +49,7 @@ To run this experiment, clone this repository and install the required dependenc
 <pre>
 <code>
   git clone https://github.com/Malak-Mansour/NLP701_assignment2_subtask1.git
-  cd xlm-roberta-multilingual
+  cd XLM_Roberta_finetuning
 </code>
 <button onclick="copyToClipboard(this.previousElementSibling.innerText)"></button>
 </pre>
@@ -77,7 +77,7 @@ The task was evaluated on English only, and the same metrics were used to assess
 <pre>
 <code>
   git clone https://github.com/Malak-Mansour/NLP701_assignment2_subtask1.git
-  cd gpt-zero-shot-few-shot
+  cd GPT_inferencing
 </code>
 <button onclick="copyToClipboard(this.previousElementSibling.innerText)"></button>
 </pre>
