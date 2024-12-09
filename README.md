@@ -40,7 +40,7 @@ In this experiment, XLM-Roberta was tested on multiple languages to evaluate its
 1. Python 3.7+
 2. PyTorch
 3. Hugging Face Transformers library
-4. Datasets for English, Hindi, Bulgarian, Portuguese, and Russian (in the folder called 
+4. Datasets for English, Hindi, Bulgarian, Portuguese, and Russian (in the folder called `subtask1_multilingual_dataset`
 5. Access to GPU resources 
 
 ### Installation:
@@ -48,7 +48,7 @@ To run this experiment, clone this repository and install the required dependenc
 
 <pre>
 <code>
-  git clone https://github.com/your-username/xlm-roberta-multilingual.git
+  git clone https://github.com/Malak-Mansour/NLP701_assignment2_subtask1/xlm-roberta-multilingual.git
   cd xlm-roberta-multilingual
 </code>
 <button onclick="copyToClipboard(this.previousElementSibling.innerText)"></button>
