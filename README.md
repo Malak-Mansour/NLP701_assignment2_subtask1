@@ -40,7 +40,7 @@ In this experiment, XLM-Roberta was tested on multiple languages to evaluate its
 1. Python 3.7+
 2. PyTorch
 3. Hugging Face Transformers library
-4. Datasets for English, Hindi, Bulgarian, Portuguese, and Russian (in the folder called `subtask1_multilingual_dataset`
+4. Datasets for English, Hindi, Bulgarian, Portuguese, and Russian (in the folder `subtask1_multilingual_dataset`)
 5. Access to GPU resources 
 
 ### Installation:
@@ -48,7 +48,7 @@ To run this experiment, clone this repository and install the required dependenc
 
 <pre>
 <code>
-  git clone https://github.com/Malak-Mansour/NLP701_assignment2_subtask1/xlm-roberta-multilingual.git
+  git clone https://github.com/Malak-Mansour/NLP701_assignment2_subtask1.git
   cd xlm-roberta-multilingual
 </code>
 <button onclick="copyToClipboard(this.previousElementSibling.innerText)"></button>
@@ -60,32 +60,30 @@ To run this experiment, clone this repository and install the required dependenc
 
 This experiment evaluates GPT models in zero-shot and few-shot learning configurations. Specifically, the performance of GPT-based models was assessed using the following methods:
 - **Zero-shot**: The model was tested without any task-specific training or prompting.
-- **Zero-shot Prompted**: The model was prompted with additional context or instructions to guide the inference.
-- **Few-shot 200**: The model was provided with 200 labeled examples.
-- **Few-shot 512**: The model was provided with 512 labeled examples.
+- **Few-shot 200**: The model was provided with 200-token window size as context from the testing set centered around the entity.
+- **Few-shot 512**: The model was provided with 512-token window size as context from the testing set centered around the entity.
 - **Few-shot 512 Prompted**: The model received prompted input along with 512 labeled examples.
 
-The task was evaluated on multiple languages (e.g., English), and the following metrics were used to assess performance: Exact Match Ratio, Precision, Recall, F1 Score, and Main Role Accuracy.
+The task was evaluated on English only, and the same metrics were used to assess performance: Exact Match Ratio, Precision, Recall, F1 Score, and Main Role Accuracy.
 
 ## Setup
 
 ### Requirements:
 1. Python 3.7+
-2. OpenAI GPT API (for GPT-3 or GPT-4)
-3. Datasets for evaluation (task-specific datasets)
+2. OpenAI GPT API (for GPT-3 or GPT-4) or Azure API access
+3. Datasets for evaluation and few-shot inferencing (in the folder `subtask1_multilingual_dataset`)
 4. Other dependencies from `requirements.txt`
 
 <pre>
 <code>
-  git clone https://github.com/your-username/gpt-zero-shot-few-shot.git
+  git clone https://github.com/Malak-Mansour/NLP701_assignment2_subtask1.git
   cd gpt-zero-shot-few-shot
-  pip install -r requirements.txt
 </code>
 <button onclick="copyToClipboard(this.previousElementSibling.innerText)"></button>
 </pre>
 
 ### Microsoft Azure account
-A Microsoft Azure account is required to set up and run the experiments in this project. Once you have set up your account, visit the [Azure AI portal](https://ai.azure.com/) to deploy your model.
+Once you have set up your Microsoft Azure account to get the API access, visit the [Azure AI portal](https://ai.azure.com/) to deploy your model.
 
 You will need the **ENDPOINT URL** and **API key** for your deployed model. Add them to your environment variables: 
 <pre>
